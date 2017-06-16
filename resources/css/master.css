@@ -14,7 +14,8 @@ h1  {
   background-position: center;
 }
 
-.header li {
+.header p {
   color: white;
   font-size: 18px;
+  font-weight: bold;
 }
