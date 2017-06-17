@@ -14,8 +14,9 @@ h1  {
   background-position: center;
 }
 
-.header p {
+.header a {
   color: white;
   font-size: 18px;
   font-weight: bold;
+  text-decoration: none;
 }
