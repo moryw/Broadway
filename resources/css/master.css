@@ -12,6 +12,8 @@ h1  {
 .header {
   background-image: url(../images/the-flatiron-building.png);
   background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .header a {
@@ -19,4 +21,70 @@ h1  {
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
+}
+
+.content h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.content h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.design h3 {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url(../images/the-flatiron-building.png);
+  background-position: center;
+}
+
+.footer {
+  text-align: left;
+  background-color: dimgray;
+}
+
+.footer p {
+  display: inline;
+  font-size: 11px;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+
 }
