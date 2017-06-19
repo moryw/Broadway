@@ -9,17 +9,23 @@ h1  {
   color: white;
 }
 
-.header {
+.site-header-container {
   background-image: url(../images/the-flatiron-building.png);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
 }
 
-.header a {
+.site-header li {
   color: white;
   font-size: 18px;
   font-weight: bold;
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.site-header a {
+  color: inherit;
   text-decoration: none;
 }
 
@@ -45,46 +51,22 @@ h1  {
   background-position: center;
 }
 
-.footer {
+.site-footer {
   text-align: left;
+  font-size: 11px;
+  color: white;
   background-color: dimgray;
 }
 
-.footer p {
-  display: inline;
-  font-size: 11px;
-  color: white;
+.site-footer ul {
+  padding: 0 0;
 }
 
-.footer a {
-  color: white;
+.site-footer li {
+  display: inline-block;
+  list-style: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer {
-
+.site-footer a {
+  color: inherit;
 }
